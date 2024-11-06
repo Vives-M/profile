@@ -8,7 +8,7 @@
     
 }
 
-.popover-hidden{
+.popover-hidden2024, .popover-hidden2019, .popover-hidden20192, .popover-hidden2015, .popover-hidden2013, .popover-hidden2012{
     display: none;
 
 }
@@ -16,7 +16,6 @@
 .popover-display{
     position: absolute;
     left: -450px;
-    top: 0;
     width: 400px;
     height: 200px;
     margin: 0;
@@ -24,49 +23,3 @@
     border: 1px solid;
     backdrop-filter: blur(10px);
 }
-
-/* :popover-open {
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    inset:unset;
-    bottom: auto;
-    left: 10px;
-    top: auto;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid;
-    width: fit-content;
-    height: fit-content;
-  } */
-
-  /* :popover-open {
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    inset: unset;
-    bottom: 5px;
-    right: 5px;
-    margin: 0;
-  } */
-  
-
-  /* [popover] {
-    inset: 0;
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    
-    padding: 0.25em;
-    overflow: auto;
-    margin: 0;
-    color: CanvasText;
-    background-color: Canvas;
-  } */
-
-  /* [popover-class]::backdrop {
-    background: rgba(255, 255, 255, 0.401);
-  }
-   */
-  
