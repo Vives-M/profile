@@ -11,7 +11,7 @@
 }
 
 .background-photo{
-    background-image: url(../images/fleur-nature.avif);
+    background-image: url(../images/goute-eau.avif);
     height: 100vh;
     position: relative;
     display: flex;
@@ -40,7 +40,7 @@
     padding: 15px;
     height:100%;
     opacity: 0.8;
-    background-color: rgba(255, 228, 196, 0.6);
+    background-color: rgba(255, 255, 255, 0.359);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,11 +49,11 @@
     
 }
 
-.container-formations{
+.container-page{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    background-color: rgba(255, 228, 196, 0.6);
+    background-color: rgba(255, 255, 255, 0.359);
     /* opacity: 0.4; */
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -75,7 +75,7 @@
     position: relative;
 }
 
-.card-item-ecole{
+.card-item-organisme{
     display: none;
 }
 
@@ -83,7 +83,7 @@
     margin-right: 25px;
 }
 
-.card-item-diplome{
+.card-item-diplome, .card-item-text{
     font-weight: 600;
     padding: 10px;
 }
