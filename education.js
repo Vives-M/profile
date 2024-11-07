@@ -11,6 +11,10 @@ const popoverHidden2013 = document.querySelector(".popover-hidden2013");
 const popoverClass2012 = document.querySelector(".popover-class2012");
 const popoverHidden2012 = document.querySelector(".popover-hidden2012");
 // console.log("coucou");
+const popoverClass = document.querySelectorAll(".popover-class");
+popoverClass.forEach((popover) => {
+    
+});
 
 popoverClass2024.addEventListener("click", (event) => {
     popoverHidden2024.classList.toggle("popover-hidden2024");

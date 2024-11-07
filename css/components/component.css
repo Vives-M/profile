@@ -8,7 +8,8 @@
     
 }
 
-.popover-hidden2024, .popover-hidden2019, .popover-hidden20192, .popover-hidden2015, .popover-hidden2013, .popover-hidden2012{
+.popover-hidden2024, .popover-hidden2019, .popover-hidden20192, .popover-hidden2015, .popover-hidden2013, .popover-hidden2012, .popover-hiddenGF,
+ .popover-hiddenVA, .popover-hiddenAdR, .popover-hiddenCRBTA, .popover-hiddenSB, .popover-hiddenAdP, .popover-hiddenLidl, .popover-hiddenSPBP{
     display: none;
 
 }
