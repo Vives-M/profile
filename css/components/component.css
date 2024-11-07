@@ -16,11 +16,12 @@
 
 .popover-display{
     position: absolute;
-    left: -450px;
+    left: -420px;
     width: 400px;
     height: 200px;
     margin: 0;
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid;
+    /* border: 1px solid; */
     backdrop-filter: blur(10px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
