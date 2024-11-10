@@ -7,6 +7,10 @@ body {
     background-size: cover;
 }
 
+p{
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
 .landing-image {
     border-radius: 8%;
     opacity: 1;
@@ -19,22 +23,46 @@ body {
     padding: 10px;
     gap: 10px;
     border-radius: 8px;
+    font-family: "Faculty Glyphic", sans-serif;
 }
 
 .text-description{
     text-justify: auto;
-
+    font-family: "Faculty Glyphic", sans-serif;
 }
 
 .title {
     font-size: 60px;
     padding: 15px;
     color: rgb(54, 0, 105);
+    font-family: "Faculty Glyphic", sans-serif;
 
+}
+
+.card-style{
+    background-color: rgba(255, 255, 255, 0.359);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card-style img{
+    height: 150px;
+    width: 150px;
 }
 
 .logos {
     max-width: 150px;
     max-height: 150px;
     padding: 5px;
+}
+
+.contact .icon{
+    width: 100px;
+    height: 100px;
+}
+
+.contact p{
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(54, 0, 105);
 }
