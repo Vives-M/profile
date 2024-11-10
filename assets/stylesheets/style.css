@@ -8,46 +8,32 @@ body {
 }
 
 .landing-image {
-    width: 300px;
-    border-radius: 8px;
+    border-radius: 8%;
     opacity: 1;
 }
 
-.card{
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.nav {
-    position: absolute;
-    top: 0;
-}
-
-.landing-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.landing-text {
+.landing-text{
     padding: 15px;
-    height: 100%;
-    /* opacity: 0.8; */
+    height:100%;
     background-color: rgba(255, 255, 255, 0.359);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
     gap: 10px;
+    border-radius: 8px;
+}
+
+.text-description{
+    text-justify: auto;
 
 }
 
 .title {
-    font-size: 70px;
+    font-size: 60px;
     padding: 15px;
+    color: rgb(54, 0, 105);
 
 }
 
-img {
+.logos {
     max-width: 150px;
     max-height: 150px;
     padding: 5px;
