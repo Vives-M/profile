@@ -1,0 +1,54 @@
+@import url(./components/component.css);
+@import url(./components/logos.css);
+
+body {
+    background-image: url(../images/photos/fond-ciel.avif);
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background-size: cover;
+}
+
+.landing-image {
+    width: 300px;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+}
+
+.landing-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text {
+    padding: 15px;
+    height: 100%;
+    /* opacity: 0.8; */
+    background-color: rgba(255, 255, 255, 0.359);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.title {
+    font-size: 70px;
+    padding: 15px;
+
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 5px;
+}
