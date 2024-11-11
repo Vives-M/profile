@@ -2,7 +2,7 @@
 @import url(./components/logos.css);
 
 body {
-    background-image: url(../images/photos/fond-ciel.avif);
+    background-image: url(../images/photos/pyrenees.jpg);
     /* background: linear-gradient(#e66465, #9198e5); */
     background-size: cover;
 }
@@ -19,7 +19,7 @@ p{
 .landing-text{
     padding: 15px;
     height:100%;
-    background-color: rgba(255, 255, 255, 0.359);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     gap: 10px;
     border-radius: 8px;
@@ -40,7 +40,7 @@ p{
 }
 
 .card-style{
-    background-color: rgba(255, 255, 255, 0.359);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 8px;
     padding: 10px;
 }
