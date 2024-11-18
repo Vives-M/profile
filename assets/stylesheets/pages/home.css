@@ -1,0 +1,19 @@
+.landing-image {
+    border-radius: 8%;
+    opacity: 1;
+}
+
+.landing-text{
+    padding: 15px;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+.text-description{
+    text-justify: auto;
+    font-family: "Faculty Glyphic", sans-serif;
+}

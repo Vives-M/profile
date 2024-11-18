@@ -1,6 +1,9 @@
 @import url(./components/component.css);
 @import url(./components/logos.css);
 @import url(./components/card.css);
+@import url(./pages/home.css);
+@import url(./components/icons.css);
+@import url(./pages/contact.css);
 
 body {
     background-image: url(../images/photos/pyrenees.jpg);
@@ -12,58 +15,9 @@ p{
     font-family: "Faculty Glyphic", sans-serif;
 }
 
-.landing-image {
-    border-radius: 8%;
-    opacity: 1;
-}
-
-.landing-text{
-    padding: 15px;
-    height:100%;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    gap: 10px;
-    border-radius: 8px;
-    font-family: "Faculty Glyphic", sans-serif;
-}
-
-.text-description{
-    text-justify: auto;
-    font-family: "Faculty Glyphic", sans-serif;
-}
-
 .title {
     font-size: 60px;
     padding: 15px;
     color: rgb(54, 0, 105);
     font-family: "Faculty Glyphic", sans-serif;
-
-}
-
-.card-style{
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.card-style img{
-    height: 150px;
-    width: 150px;
-}
-
-.logos {
-    max-width: 150px;
-    max-height: 150px;
-    padding: 5px;
-}
-
-.icon{
-    width: 100px;
-    height: 100px;
-}
-
-.contact p{
-    font-size: 30px;
-    padding: 15px;
-    color: rgb(54, 0, 105);
 }
