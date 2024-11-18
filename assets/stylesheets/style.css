@@ -1,5 +1,6 @@
 @import url(./components/component.css);
 @import url(./components/logos.css);
+@import url(./components/card.css);
 
 body {
     background-image: url(../images/photos/pyrenees.jpg);
